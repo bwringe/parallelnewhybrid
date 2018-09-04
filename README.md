@@ -68,7 +68,7 @@ sim_inds <- parallelnewhybrid::SimPops_S1R1_NH_individuals
 ## Get the genotype data file included along with the parallelnewhybrid package and make it an object
 sim_data <- parallelnewhybrid::SimPops_S1R1_NH
 
-## Gave the individual data to the working directory as a file called "SimPops_S1R1_NH_individuals.txt"
+## Save the individual data to the working directory as a file called "SimPops_S1R1_NH_individuals.txt"
 write.table(x = sim_inds, file = paste0(path.hold, "/SimPops_S1R1_NH_individuals.txt"), row.names = FALSE, col.names = FALSE, quote = FALSE)
 
 ## Save the genotype data to the working directory as a file called "SimPops_S1R1_NH.txt"
